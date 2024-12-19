@@ -1,28 +1,25 @@
-/* body {
-    background-color: rgb(3, 3, 33);
-    color: rgb(157, 212, 231);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.about {
-    background-color: azure; */
-
+html, body {
+    margin: 0; 
+    padding: 0;
+    height: 100%; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .top-image-container img {
     display: block;
-    width: 100%;
-    height: auto;
-    position: relative;
+    width: 98.71vw;
+    height: 50vh;
+    margin: 0%;
+    padding: 0%;
+    object-fit: cover;
     text-align: left;
     color: white;
 }
 
-
-.top-image-header-text {
+.top-image-header-text1 {
     position: absolute;
     top: 8%;
-    left: 28%;
+    left: 27%;
     transform: translate(-50%, -50%); 
     color: #fff; 
     padding: 10px 20px; 
@@ -30,3 +27,52 @@
     text-align: left;
 }
 
+.top-image-header-text2 {
+    position: absolute;
+    top: 14.5%;
+    left: 15.5%;
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 32px; 
+    text-align: left;
+}
+
+.sections {
+    color: black;
+    text-align: center;
+}
+
+#about-header {
+    font-size: 28px;
+    text-align: center;
+}
+
+#about-paragraph {
+    font-size: 20px;
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+#projects-header {
+    font-size: 28px;
+    text-align: center;
+}
+
+
+#skills-header {
+    font-size: 28px;
+    text-align: center;
+}
+
+#listed-items {
+    
+}
+
+#contact-header {
+    font-size: 18px;
+    text-align: center;
+}
